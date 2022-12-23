@@ -1,0 +1,385 @@
+       
+*
+{
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir, sans-serif;
+}
+
+header
+{
+  background-color: black;
+  background-image: url('https://www.10wallpaper.com/wallpaper/1680x1050/1501/3D_Black_Square-HD_Widescreen_Wallpaper_1680x1050.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  width: 100%;
+}
+
+body
+{
+  background-image: url('https://www.10wallpaper.com/wallpaper/1680x1050/1501/3D_Black_Square-HD_Widescreen_Wallpaper_1680x1050.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  background-color: black;
+
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.KAYA 
+{
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  box-shadow: 10px 5px 5px white;
+  text-shadow: 5px 5px 5px white;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein 
+{
+  from {margin-left: 100%; width: 300%;}
+  to {margin-left: 0%; width: 100%;}
+}
+
+nav
+{
+  width: 100%;
+  margin: 0px auto 40px auto;
+  border: 2px solid whitesmoke ;
+  position: sticky;
+  top: 0px;
+  border-radius: 10px;
+}
+
+nav ul
+{
+  list-style-type: none;
+}
+
+nav li
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+
+nav ul::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a
+{
+  display: block; 
+  text-decoration: none;
+  color: rgb(174, 171, 171);
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav li a:hover
+{
+  color: rgb(255, 0, 0);
+  border: 2px solid rgb(36, 6, 66);
+}
+
+
+
+
+.conteneur
+{
+margin: 0px 20px;
+}
+
+.contact
+{
+  font-size: 40px;
+}
+.contact1
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.paragraphe_article
+{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#projet
+{
+  font-size: 40px;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#competence
+{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projet
+{
+  font-size: 400px;
+}
+.descriptif
+{
+  font-size: 40px;
+}
+
+footer
+{
+  background-image: url('https://www.10wallpaper.com/wallpaper/1680x1050/1501/3D_Black_Square-HD_Widescreen_Wallpaper_1680x1050.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  width: 100%;
+
+}
+
+/*-----main-----*/
+.bac
+{
+  height: 5rem;
+  background: linear-gradient(rgb(255, 255, 255), rgb(18, 16, 16), rgb(0, 0, 0));
+  opacity: 0.8;
+}
+.barre
+{
+    display: flex;
+    max-width: 900px;
+    width: 900px;
+    max-height: 20px;
+    height: 20px;
+    border: 6px solid #fefcff;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.barre_html
+{
+    width: 70%;
+    height: 100%;
+    background-color: crimson;
+}
+.barre_css
+{
+    width: 65%;
+    height: 100%;
+    background-color: crimson;
+}
+.barre_git
+{
+    width: 20%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.titre_competence
+{
+    color: crimson;
+    text-shadow: 2px 2px 2px #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.section_competence
+{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 150px;
+    opacity: 0.6;
+}
+.titre_competence
+{
+    display: flex;
+    align-items: baseline;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.partie_basse_competence
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input
+{
+  color: black;
+}
+
+.link
+{
+  width: 50%;
+  display: flex;
+
+}
+
+.ensemble_footer
+{
+  max-width: 50%;
+  display: flex;
+}
+textarea
+{
+  color: black;
+}
+
+.copy
+{
+  display: flex;
+justify-content: center;
+}
+.envoyer
+{
+  color: black;
+  border-radius: 5px rgb(255, 255, 255);
+}
+.link
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.carousel
+{
+display: flex;
+justify-content: center;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.ensemble_logo_linkedin > i
+{
+font-size: large;
+color: royalblue;
+}
+.ensemble_logo_github > i
+{
+  font-size: large;
+  color: royalblue;
+}
+.ensemble_logo_linkedin > i
+{
+  font-size: 130px;
+  color: royalblue;
+}
+.ensemble_logo_github > i
+{
+  font-size: 130px;
+  color: royalblue;
+}
+ensemble_footer
+@media screen and (min-width: 600px) and (max-width: 1000px)
+{
+  header
+  {
+    width: 100%;
+  }
+  .barre
+  {
+    width: 90%;
+  }
+  .ensemble_footer
+  {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+  }
+  .link
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  .ensemble_logo_linkedin > i
+  {
+    font-size: 130px;
+    color: royalblue;
+  }
+  .ensemble_logo_github > i
+  {
+    font-size: 130px;
+    color: #4169e1;
+  }
+
+}
+
+@media screen and (max-width: 600px)
+{
+  header > nav  
+  {
+
+    width: 100%;
+  }
+
+  
+  header > nav > ul > li 
+  {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
+    font-size: 30px;
+    width: 100%;
+  }
+  .barre
+  {
+    width: 90%;
+  }
+  footer
+  {
+    flex-direction: column;
+  }
+  .ensemble_footer
+  {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .link
+  {
+    display: flex;
+    width: 100%;
+  }
+  .bac
+  {
+    display: none;
+  }
+}
+button
+{
+  color: black;
+}
